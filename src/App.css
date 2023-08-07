@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  width: 1440px;
+  padding: 228px 0px 140px 0px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 64px;
+  background: #DBE2F1;
+}
