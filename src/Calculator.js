@@ -7,7 +7,7 @@ export default function Calculator() {
       <div className="container">
         <div className="name">
           <h1>
-            easy<i>calc</i>
+            easy<span>calc</span>
           </h1>
         </div>
 
@@ -16,40 +16,40 @@ export default function Calculator() {
           {0}
         </div>
 
-        <div className="buttons">
+        <div className="buttons-container">
           <div className="top-row">
-            <button>C</button>
-            <button>(</button>
-            <button>)</button>
-            <button>÷</button>
+            <button className="group-a">C</button>
+            <button className="group-a">(</button>
+            <button className="group-a">)</button>
+            <button className="group-a">÷</button>
           </div>
 
           <div className="second-row">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>x</button>
+            <button className="group-b">7</button>
+            <button className="group-b">8</button>
+            <button className="group-b">9</button>
+            <button className="group-a">x</button>
           </div>
 
           <div className="third-row">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
+            <button className="group-b">4</button>
+            <button className="group-b">5</button>
+            <button className="group-b">6</button>
+            <button className="group-a">-</button>
           </div>
 
           <div className="fourth-row">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
+            <button className="group-b">1</button>
+            <button className="group-b">2</button>
+            <button className="group-b">3</button>
+            <button className="group-a">+</button>
           </div>
 
           <div className="fifth-row">
-            <button>.</button>
-            <button>0</button>
-            <button>⌫</button>
-            <button>=</button>
+            <button className="group-b">.</button>
+            <button className="group-b">0</button>
+            <button className="group-b">⌫</button>
+            <button className="group-c">=</button>
           </div>
         </div>
       </div>
