@@ -5,11 +5,15 @@ export default function Calculator() {
   return (
     <div className="Calculator">
       <div className="container">
-        <div className="name">
-          <h1>
-            easy<span>calc</span>
-          </h1>
-        </div>
+        <header className="header-section">
+          <div className="name">
+            <h1>
+              easy<span>calc</span>
+            </h1>
+          </div>
+
+          <div className="dark-light-mode-icon"></div>
+        </header>
 
         <div className="display">
           <span>0</span>
@@ -18,44 +22,44 @@ export default function Calculator() {
 
         <div className="buttons-container">
           <div className="top-row">
-            <button className="group-a">C</button>
-            <button className="group-a">(</button>
-            <button className="group-a">)</button>
-            <button className="group-a">÷</button>
+            <div className="group-a">C</div>
+            <div className="group-a">(</div>
+            <div className="group-a">)</div>
+            <div className="group-a">÷</div>
           </div>
 
           <div className="second-row">
-            <button className="group-b">7</button>
-            <button className="group-b">8</button>
-            <button className="group-b">9</button>
-            <button className="group-a">x</button>
+            <div className="group-b">7</div>
+            <div className="group-b">8</div>
+            <div className="group-b">9</div>
+            <div className="group-a">x</div>
           </div>
 
           <div className="third-row">
-            <button className="group-b">4</button>
-            <button className="group-b">5</button>
-            <button className="group-b">6</button>
-            <button className="group-a">-</button>
+            <div className="group-b">4</div>
+            <div className="group-b">5</div>
+            <div className="group-b">6</div>
+            <div className="group-a">-</div>
           </div>
 
           <div className="fourth-row">
-            <button className="group-b">1</button>
-            <button className="group-b">2</button>
-            <button className="group-b">3</button>
-            <button className="group-a">+</button>
+            <div className="group-b">1</div>
+            <div className="group-b">2</div>
+            <div className="group-b">3</div>
+            <div className="group-a">+</div>
           </div>
 
           <div className="fifth-row">
-            <button className="group-b">.</button>
-            <button className="group-b">0</button>
-            <button className="group-b">⌫</button>
-            <button className="group-c">=</button>
+            <div className="group-b">.</div>
+            <div className="group-b">0</div>
+            <div className="group-b">⌫</div>
+            <div className="group-c">=</div>
           </div>
         </div>
       </div>
 
       <footer>
-        <div>Coded by Farah Alhaddad</div>
+        <div>Code by Farah Alhaddad</div>
         <div>Design by Jeremie Roberrini</div>
       </footer>
     </div>
