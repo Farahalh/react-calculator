@@ -12,7 +12,9 @@ export default function Calculator() {
             </h1>
           </div>
 
-          <div className="dark-light-mode-icon"></div>
+          <div className="dark-light-mode-icon">
+            <div className="icon-polution"></div>
+          </div>
         </header>
 
         <div className="display">
@@ -53,7 +55,7 @@ export default function Calculator() {
             <div className="group-b">.</div>
             <div className="group-b">0</div>
             <div className="group-b">⌫</div>
-            <div className="group-c">=</div>
+            <div className="group-c equal-sign">=</div>
           </div>
         </div>
       </div>
