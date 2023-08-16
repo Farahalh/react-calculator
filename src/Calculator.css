@@ -128,7 +128,32 @@ header {
   box-shadow: 4px 4px 16px 0px rgba(209, 149, 31, 0.2), -4px -4px 16px 0px #fff,
     4px 4px 16px 0px rgba(209, 149, 31, 0.2) inset,
     -4px -4px 16px 0px rgba(255, 255, 255, 0.6) inset;
-  color: #2f2d5199;
+  color: rgba(47, 45, 81, 0.6);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.buttons-container .group-a:hover {
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background: #fff5d0;
+  box-shadow: 4px 4px 16px 0px rgba(209, 149, 31, 0.2) inset,
+    -4px -4px 16px 0px rgba(255, 255, 255, 0.6) inset,
+    4px 4px 16px 0px rgba(209, 149, 31, 0.2), -4px -4px 16px 0px #fff;
+  color: #2f2d51;
+}
+
+.buttons-container .group-a:focus {
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background: #f2f3f7;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.2) inset,
+    -4px -4px 16px 0px rgba(255, 255, 255, 0.6) inset;
+  color: #2f2d51;
 }
 
 .buttons-container .group-b {
@@ -140,7 +165,42 @@ header {
   box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.1), -4px -4px 16px 0px #fff,
     4px 4px 16px 0px rgba(0, 0, 0, 0.1) inset,
     -4px -4px 16px 0px rgba(255, 255, 255, 0.6) inset;
-  color: #2f2d5199;
+  color: rgba(47, 45, 81, 0.6);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.buttons-container .group-b:hover {
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background: #f2f3f7;
+  box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.1), -4px -4px 16px 0px #fff,
+    4px 4px 16px 0px rgba(0, 0, 0, 0.1) inset,
+    -4px -4px 16px 0px rgba(255, 255, 255, 0.6) inset;
+  color: #2f2d51;
+}
+
+.group-b svg:hover {
+  flex-shrink: 0;
+  stroke: #2f2d51;
+  transform: scale(1.2);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.buttons-container .group-b:focus {
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background: #fff5d0;
+  box-shadow: 4px 4px 16px 0px rgba(209, 149, 31, 0.2) inset,
+    -4px -4px 16px 0px rgba(255, 255, 255, 0.6) inset,
+    4px 4px 16px 0px rgba(209, 149, 31, 0.2), -4px -4px 16px 0px #fff;
+  color: #2f2d51;
 }
 
 .buttons-container .group-c {
@@ -152,7 +212,32 @@ header {
   box-shadow: 4px 4px 16px 0px rgba(206, 78, 170, 0.2), -4px -4px 16px 0px #fff,
     4px 4px 16px 0px rgba(54, 1, 63, 0.2) inset,
     -4px -4px 16px 0px rgba(255, 255, 255, 0.3) inset;
-  color: #2f2d5199;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.buttons-container .group-c:hover {
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background: #ce4eaa;
+  box-shadow: 4px 4px 16px 0px rgba(54, 1, 63, 0.2) inset,
+    -4px -4px 16px 0px rgba(255, 255, 255, 0.3) inset,
+    4px 4px 16px 0px rgba(206, 78, 170, 0.2), -4px -4px 16px 0px #fff;
+  color: #fff;
+}
+
+.buttons-container .group-c:focus {
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background: #ce4eaa;
+  box-shadow: 4px 4px 16px 0px rgba(54, 1, 63, 0.2) inset,
+    -4px -4px 16px 0px rgba(255, 255, 255, 0.3) inset,
+    4px 4px 16px 0px rgba(206, 78, 170, 0.2), -4px -4px 16px 0px #fff;
 }
 
 .buttons-container .equal-sign {
