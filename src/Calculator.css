@@ -50,8 +50,8 @@ header {
   border-radius: 16px;
   border: 1px solid #2f2d51;
   background: #fff;
-  background-image: url(iconPolution.svg);
-  background-repeat: no-repeat;
+  /*background-image: url(iconPolution.svg);
+  background-repeat: no-repeat;*/
 }
 
 .icon-polution {
@@ -65,7 +65,8 @@ header {
 
 .display {
   max-width: 256px;
-  height: 112px;
+  max-height: 112px;
+  gap: 12px;
   padding: 16px 24px;
   margin: 24px 24px;
   margin-top: 0;
@@ -80,6 +81,24 @@ header {
   box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.1), -4px -4px 16px 0px #fff,
     4px 4px 16px 0px rgba(0, 0, 0, 0.15) inset,
     -4px -4px 16px 0px rgba(255, 255, 255, 0.6) inset;
+}
+
+.display span {
+  color: rgba(47, 45, 81, 0.5);
+  text-align: right;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.display div {
+  color: #2f2d51;
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .buttons-container {
@@ -109,7 +128,7 @@ header {
   box-shadow: 4px 4px 16px 0px rgba(209, 149, 31, 0.2), -4px -4px 16px 0px #fff,
     4px 4px 16px 0px rgba(209, 149, 31, 0.2) inset,
     -4px -4px 16px 0px rgba(255, 255, 255, 0.6) inset;
-    color: #2F2D5199;
+  color: #2f2d5199;
 }
 
 .buttons-container .group-b {
@@ -121,7 +140,7 @@ header {
   box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.1), -4px -4px 16px 0px #fff,
     4px 4px 16px 0px rgba(0, 0, 0, 0.1) inset,
     -4px -4px 16px 0px rgba(255, 255, 255, 0.6) inset;
-    color: #2F2D5199;
+  color: #2f2d5199;
 }
 
 .buttons-container .group-c {
@@ -133,11 +152,11 @@ header {
   box-shadow: 4px 4px 16px 0px rgba(206, 78, 170, 0.2), -4px -4px 16px 0px #fff,
     4px 4px 16px 0px rgba(54, 1, 63, 0.2) inset,
     -4px -4px 16px 0px rgba(255, 255, 255, 0.3) inset;
-    color: #2F2D5199;
+  color: #2f2d5199;
 }
 
-.buttons-container .equal-sign{
-  color: #F2F3F780;
+.buttons-container .equal-sign {
+  color: #f2f3f780;
 }
 
 footer {
