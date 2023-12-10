@@ -6,7 +6,7 @@ export default function Calculator() {
     <div className="Calculator">
       <div className="container">
         <header className="header-section">
-          <div className="name">
+          <div className="calculator-name">
             <h1>
               easy<span>calc</span>
             </h1>
@@ -17,7 +17,7 @@ export default function Calculator() {
           </div>
         </header>
 
-        <div className="display">
+        <div className="calculator-display">
           <span>0</span>
           {0}
         </div>
